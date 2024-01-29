@@ -51,8 +51,6 @@
 		508EC7B72B5A77C9006E5EEA /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508EC7B62B5A77C9006E5EEA /* LottieView.swift */; };
 		50CB10D72B5D3DB2000307E4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CB10D62B5D3DB2000307E4 /* LoginView.swift */; };
 		50CB10D92B5D5A6E000307E4 /* AgreeSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CB10D82B5D5A6E000307E4 /* AgreeSubView.swift */; };
-		88D6C9F52B60119C004742AD /* ColorCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D6C9F42B60119C004742AD /* ColorCircleView.swift */; };
-		88D6C9F82B6028B3004742AD /* ToDoCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D6C9F72B6028B3004742AD /* ToDoCreateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,8 +93,6 @@
 		508EC7B62B5A77C9006E5EEA /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		50CB10D62B5D3DB2000307E4 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		50CB10D82B5D5A6E000307E4 /* AgreeSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreeSubView.swift; sourceTree = "<group>"; };
-		88D6C9F42B60119C004742AD /* ColorCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircleView.swift; sourceTree = "<group>"; };
-		88D6C9F72B6028B3004742AD /* ToDoCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoCreateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -270,7 +266,6 @@
 		5012A9E42B593B9800544AB0 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				88D6C9F62B60286A004742AD /* HomeToDo */,
 				5021D8DC2B593F88009B4AD1 /* HomeMain */,
 			);
 			path = Home;
@@ -288,7 +283,6 @@
 			isa = PBXGroup;
 			children = (
 				508EC7B62B5A77C9006E5EEA /* LottieView.swift */,
-				88D6C9F42B60119C004742AD /* ColorCircleView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -370,14 +364,6 @@
 				5021D8F32B594279009B4AD1 /* OnboardingView.swift */,
 			);
 			path = OnboardingMain;
-			sourceTree = "<group>";
-		};
-		88D6C9F62B60286A004742AD /* HomeToDo */ = {
-			isa = PBXGroup;
-			children = (
-				88D6C9F72B6028B3004742AD /* ToDoCreateView.swift */,
-			);
-			path = HomeToDo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -483,7 +469,6 @@
 				5021D8D92B593F4D009B4AD1 /* ScheduleRepositoryImpl.swift in Sources */,
 				5021D8F42B594279009B4AD1 /* OnboardingView.swift in Sources */,
 				5021D8E72B594060009B4AD1 /* DiaryMainViewModel.swift in Sources */,
-				88D6C9F52B60119C004742AD /* ColorCircleView.swift in Sources */,
 				5021D8F22B5940D6009B4AD1 /* CustomMainViewModel.swift in Sources */,
 				504A313C2B5BDDF3007888B7 /* ViewHiddenModifier.swift in Sources */,
 				50CB10D72B5D3DB2000307E4 /* LoginView.swift in Sources */,
@@ -492,7 +477,6 @@
 				5021D8F02B5940C8009B4AD1 /* CustomMainView.swift in Sources */,
 				5021D8DE2B593FB9009B4AD1 /* HomeMainViewModel.swift in Sources */,
 				5021D8E32B594044009B4AD1 /* DiaryMainView.swift in Sources */,
-				88D6C9F82B6028B3004742AD /* ToDoCreateView.swift in Sources */,
 				5021D8FA2B5942B2009B4AD1 /* APISample.swift in Sources */,
 				5021D8E02B593FC5009B4AD1 /* HomeMainView.swift in Sources */,
 				5021D8F82B5942A6009B4AD1 /* LocalSample.swift in Sources */,
